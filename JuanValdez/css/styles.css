@@ -1,0 +1,105 @@
+.c_div{
+	float:left;
+	/*border-radius: 10px;*/
+}
+#div_logo{
+	width:20%;
+	height:100px;
+	background-color:#DDD000;				
+}
+#div_slogan{
+	width:80%;
+	height:100px;
+	background-color:blue;
+}
+#div_body{
+	width:100%;
+	background-color:white;
+	height:500px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#div_copyright{
+	width:100%;
+	height:30px;
+	margin-top:10px;
+	background-color:red;
+}
+#div_infoadicional{
+	width:100%;
+	height:200px;
+	background-color:yellow;
+}
+#div_localizacion{
+	width:10%;
+	height:40px;
+	background-color:blue;
+}
+#div_redes{
+	width:80%;
+	height:40px;
+	background-color:black;
+}
+#div_login{
+	width:10%;
+	height:40px;
+	background-color:brown;
+}
+#div_vacio{
+	width:100%;
+	height:60px;
+	background-color:red;
+}
+#dropdown_menu{
+	color:white;
+	height:50px;
+}
+#dropdown_menu ul, #dropdown_menu li{
+	margin:0px;
+	padding:0px;
+}
+#dropdown_menu ul{
+	background:gray;
+	list-style:none;
+	width:100%;
+}
+#dropdown_menu li{
+	float:left;
+	position:relative;
+	width:auto;
+}
+#dropdown_menu a{
+	background:#30A6E6;
+	color:#FFFFFF;
+	display:block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align:center;
+	text-decoration:none;
+}
+#dropdown_menu li:hover a{
+	background:#000000;
+}
+#submenu{
+	left:0;
+	opacity:0;
+	position:absolute;
+	top:35px;
+	visibility:hidden;
+	z-index:1;
+}
+li:hover ul#submenu{
+	visibility:visible;
+	opacity:1;
+	top:40px;
+}
+#submenu li{
+	float:none;
+	width:100%;
+}
+#submenu li:hover a{
+	background:#000FFF;
+}
+#submenu a{
+	background-color:#000000;
+}
